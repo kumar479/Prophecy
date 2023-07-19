@@ -1,0 +1,46 @@
+name: project-one
+description: ''
+version: 0.0.1
+author: munikumar@de-haze.com
+language: python
+buildSystem: ''
+buildSystemDetails:
+  artefactID: projectone
+  parentArtefactID: munikumardehaze.com_team
+  buildSystem: wheel
+  author: null
+  createdAt: '2023-07-19 12:35:43'
+pipelines:
+  pipelines/pipeline-one:
+    name: pipeline-one
+    description: pipeline for the project one
+    author: munikumar@de-haze.com
+    mode: batch
+    artefactID: ''
+    language: python
+    createdAt: '2023-07-19 12:35:43'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+datasets: {}
+templates: {}
+jobs: {}
+functions:
+  author: null
+  createdAt: '2023-07-19 12:35:43'
+  gems: {}
+  udfs: {}
+  udafs: {}
+  expressions: {}
+subgraphs: {}
+sqlModels: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies: '[]'
+projectDependencies: {}
+pipelineConfigurations: {}
